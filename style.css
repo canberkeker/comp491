@@ -214,6 +214,17 @@ font-weight: 600;
 
 }
 
+.item-img{
+    width: 60%;
+}
+
+.item-img img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+
+}
+
 .contact-text{
     width: 40%;
 }
