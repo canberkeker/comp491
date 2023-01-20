@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310D8AA16DEC8E06E613F3FF /* Pods_KU_rala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739C303147A434D9D3B1F03E /* Pods_KU_rala.framework */; };
+		B80B530529733740000794BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80B53042973373F000794BE /* GoogleService-Info.plist */; };
+		B80B530729733871000794BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B530629733871000794BE /* LoginView.swift */; };
+		B8366EB7296ADE100006E771 /* KU_ralaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8366EB6296ADE100006E771 /* KU_ralaApp.swift */; };
+		B8366EBB296ADE120006E771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8366EBA296ADE120006E771 /* Assets.xcassets */; };
+		B8366EBE296ADE120006E771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8366EBD296ADE120006E771 /* Preview Assets.xcassets */; };
+		B85A8A3F296AEB88007CDE0D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A3E296AEB88007CDE0D /* InfoView.swift */; };
+		B85A8A41296AEF29007CDE0D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A40296AEF29007CDE0D /* CategoriesView.swift */; };
+		B85A8A46296AF985007CDE0D /* internationalRelationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A45296AF985007CDE0D /* internationalRelationsView.swift */; };
+		B85A8A48296AF9C5007CDE0D /* economicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A47296AF9C5007CDE0D /* economicsView.swift */; };
+		B85A8A4A296AF9E9007CDE0D /* businessAdministrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A49296AF9E9007CDE0D /* businessAdministrationView.swift */; };
+		B85A8A4D296B0178007CDE0D /* caseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A4C296B0178007CDE0D /* caseView.swift */; };
+		B85A8A4F296B0414007CDE0D /* engrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A4E296B0414007CDE0D /* engrView.swift */; };
+		B85A8A51296B05E6007CDE0D /* chemEngrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A50296B05E6007CDE0D /* chemEngrView.swift */; };
+		B85A8A53296B05EF007CDE0D /* compEngrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A52296B05EF007CDE0D /* compEngrView.swift */; };
+		B85A8A55296B05FE007CDE0D /* elecEngrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A54296B05FE007CDE0D /* elecEngrView.swift */; };
+		B85A8A57296B060E007CDE0D /* indrEngrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A56296B060E007CDE0D /* indrEngrView.swift */; };
+		B85A8A59296B061E007CDE0D /* mechEngrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A58296B061E007CDE0D /* mechEngrView.swift */; };
+		B85A8A5B296B09BC007CDE0D /* scieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A5A296B09BC007CDE0D /* scieView.swift */; };
+		B85A8A5D296B0B2F007CDE0D /* chemistryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A5C296B0B2F007CDE0D /* chemistryView.swift */; };
+		B85A8A61296B0B7F007CDE0D /* physicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A60296B0B7F007CDE0D /* physicsView.swift */; };
+		B85A8A63296B0B98007CDE0D /* mathematicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A62296B0B98007CDE0D /* mathematicsView.swift */; };
+		B85A8A65296B0BE1007CDE0D /* mbGeneticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A64296B0BE1007CDE0D /* mbGeneticsView.swift */; };
+		B85A8A67296B0DCF007CDE0D /* sosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A66296B0DCF007CDE0D /* sosView.swift */; };
+		B85A8A69296B10E5007CDE0D /* archArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A68296B10E5007CDE0D /* archArtView.swift */; };
+		B85A8A6B296B10F3007CDE0D /* compLiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A6A296B10F3007CDE0D /* compLiteView.swift */; };
+		B85A8A6D296B1122007CDE0D /* historyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A6C296B1122007CDE0D /* historyView.swift */; };
+		B85A8A6F296B1133007CDE0D /* psychologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A6E296B1133007CDE0D /* psychologyView.swift */; };
+		B85A8A71296B1174007CDE0D /* philosophyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A70296B1174007CDE0D /* philosophyView.swift */; };
+		B85A8A73296B1192007CDE0D /* sociologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A72296B1192007CDE0D /* sociologyView.swift */; };
+		B85A8A75296B11B2007CDE0D /* mavaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A74296B11B2007CDE0D /* mavaView.swift */; };
+		B85A8A77296B1606007CDE0D /* lawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A76296B1606007CDE0D /* lawView.swift */; };
+		B85A8A79296B1611007CDE0D /* medicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A78296B1611007CDE0D /* medicineView.swift */; };
+		B85A8A7D296B1644007CDE0D /* elcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A7C296B1644007CDE0D /* elcView.swift */; };
+		B85A8A7F296B170A007CDE0D /* nursingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A8A7E296B170A007CDE0D /* nursingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33B9F9F838335BCB350A7567 /* Pods-KU-rala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KU-rala.debug.xcconfig"; path = "Target Support Files/Pods-KU-rala/Pods-KU-rala.debug.xcconfig"; sourceTree = "<group>"; };
+		739C303147A434D9D3B1F03E /* Pods_KU_rala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KU_rala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F9101954CFE8334C4C5B18 /* Pods-KU-rala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KU-rala.release.xcconfig"; path = "Target Support Files/Pods-KU-rala/Pods-KU-rala.release.xcconfig"; sourceTree = "<group>"; };
+		B80B53042973373F000794BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B80B530629733871000794BE /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B8366EB3296ADE100006E771 /* KU-rala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KU-rala.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8366EB6296ADE100006E771 /* KU_ralaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KU_ralaApp.swift; sourceTree = "<group>"; };
+		B8366EBA296ADE120006E771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8366EBD296ADE120006E771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B85A8A3E296AEB88007CDE0D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		B85A8A40296AEF29007CDE0D /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		B85A8A45296AF985007CDE0D /* internationalRelationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internationalRelationsView.swift; sourceTree = "<group>"; };
+		B85A8A47296AF9C5007CDE0D /* economicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = economicsView.swift; sourceTree = "<group>"; };
+		B85A8A49296AF9E9007CDE0D /* businessAdministrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = businessAdministrationView.swift; sourceTree = "<group>"; };
+		B85A8A4C296B0178007CDE0D /* caseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caseView.swift; sourceTree = "<group>"; };
+		B85A8A4E296B0414007CDE0D /* engrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = engrView.swift; sourceTree = "<group>"; };
+		B85A8A50296B05E6007CDE0D /* chemEngrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemEngrView.swift; sourceTree = "<group>"; };
+		B85A8A52296B05EF007CDE0D /* compEngrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compEngrView.swift; sourceTree = "<group>"; };
+		B85A8A54296B05FE007CDE0D /* elecEngrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elecEngrView.swift; sourceTree = "<group>"; };
+		B85A8A56296B060E007CDE0D /* indrEngrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indrEngrView.swift; sourceTree = "<group>"; };
+		B85A8A58296B061E007CDE0D /* mechEngrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mechEngrView.swift; sourceTree = "<group>"; };
+		B85A8A5A296B09BC007CDE0D /* scieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scieView.swift; sourceTree = "<group>"; };
+		B85A8A5C296B0B2F007CDE0D /* chemistryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemistryView.swift; sourceTree = "<group>"; };
+		B85A8A60296B0B7F007CDE0D /* physicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physicsView.swift; sourceTree = "<group>"; };
+		B85A8A62296B0B98007CDE0D /* mathematicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathematicsView.swift; sourceTree = "<group>"; };
+		B85A8A64296B0BE1007CDE0D /* mbGeneticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbGeneticsView.swift; sourceTree = "<group>"; };
+		B85A8A66296B0DCF007CDE0D /* sosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sosView.swift; sourceTree = "<group>"; };
+		B85A8A68296B10E5007CDE0D /* archArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = archArtView.swift; sourceTree = "<group>"; };
+		B85A8A6A296B10F3007CDE0D /* compLiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compLiteView.swift; sourceTree = "<group>"; };
+		B85A8A6C296B1122007CDE0D /* historyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyView.swift; sourceTree = "<group>"; };
+		B85A8A6E296B1133007CDE0D /* psychologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psychologyView.swift; sourceTree = "<group>"; };
+		B85A8A70296B1174007CDE0D /* philosophyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = philosophyView.swift; sourceTree = "<group>"; };
+		B85A8A72296B1192007CDE0D /* sociologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociologyView.swift; sourceTree = "<group>"; };
+		B85A8A74296B11B2007CDE0D /* mavaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mavaView.swift; sourceTree = "<group>"; };
+		B85A8A76296B1606007CDE0D /* lawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lawView.swift; sourceTree = "<group>"; };
+		B85A8A78296B1611007CDE0D /* medicineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicineView.swift; sourceTree = "<group>"; };
+		B85A8A7C296B1644007CDE0D /* elcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elcView.swift; sourceTree = "<group>"; };
+		B85A8A7E296B170A007CDE0D /* nursingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nursingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8366EB0296ADE100006E771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310D8AA16DEC8E06E613F3FF /* Pods_KU_rala.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81D3DAF97C3D8CD9FCC0494E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739C303147A434D9D3B1F03E /* Pods_KU_rala.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8366EAA296ADE100006E771 = {
+			isa = PBXGroup;
+			children = (
+				B8366EB5296ADE100006E771 /* KU-rala */,
+				B8366EB4296ADE100006E771 /* Products */,
+				E9EF2E81AE366D0278EA029B /* Pods */,
+				81D3DAF97C3D8CD9FCC0494E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8366EB4296ADE100006E771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8366EB3296ADE100006E771 /* KU-rala.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8366EB5296ADE100006E771 /* KU-rala */ = {
+			isa = PBXGroup;
+			children = (
+				B8366EB6296ADE100006E771 /* KU_ralaApp.swift */,
+				B85A8A40296AEF29007CDE0D /* CategoriesView.swift */,
+				B85A8A3E296AEB88007CDE0D /* InfoView.swift */,
+				B80B530629733871000794BE /* LoginView.swift */,
+				B80B53042973373F000794BE /* GoogleService-Info.plist */,
+				B85A8A4B296B0141007CDE0D /* Majors */,
+				B85A8A42296AF0F0007CDE0D /* Categories */,
+				B8366EBA296ADE120006E771 /* Assets.xcassets */,
+				B8366EBC296ADE120006E771 /* Preview Content */,
+			);
+			path = "KU-rala";
+			sourceTree = "<group>";
+		};
+		B8366EBC296ADE120006E771 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8366EBD296ADE120006E771 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B85A8A42296AF0F0007CDE0D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B85A8A4C296B0178007CDE0D /* caseView.swift */,
+				B85A8A4E296B0414007CDE0D /* engrView.swift */,
+				B85A8A5A296B09BC007CDE0D /* scieView.swift */,
+				B85A8A66296B0DCF007CDE0D /* sosView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B85A8A4B296B0141007CDE0D /* Majors */ = {
+			isa = PBXGroup;
+			children = (
+				B85A8A45296AF985007CDE0D /* internationalRelationsView.swift */,
+				B85A8A47296AF9C5007CDE0D /* economicsView.swift */,
+				B85A8A49296AF9E9007CDE0D /* businessAdministrationView.swift */,
+				B85A8A50296B05E6007CDE0D /* chemEngrView.swift */,
+				B85A8A52296B05EF007CDE0D /* compEngrView.swift */,
+				B85A8A54296B05FE007CDE0D /* elecEngrView.swift */,
+				B85A8A56296B060E007CDE0D /* indrEngrView.swift */,
+				B85A8A58296B061E007CDE0D /* mechEngrView.swift */,
+				B85A8A5C296B0B2F007CDE0D /* chemistryView.swift */,
+				B85A8A60296B0B7F007CDE0D /* physicsView.swift */,
+				B85A8A62296B0B98007CDE0D /* mathematicsView.swift */,
+				B85A8A64296B0BE1007CDE0D /* mbGeneticsView.swift */,
+				B85A8A68296B10E5007CDE0D /* archArtView.swift */,
+				B85A8A6A296B10F3007CDE0D /* compLiteView.swift */,
+				B85A8A6C296B1122007CDE0D /* historyView.swift */,
+				B85A8A6E296B1133007CDE0D /* psychologyView.swift */,
+				B85A8A70296B1174007CDE0D /* philosophyView.swift */,
+				B85A8A72296B1192007CDE0D /* sociologyView.swift */,
+				B85A8A74296B11B2007CDE0D /* mavaView.swift */,
+				B85A8A76296B1606007CDE0D /* lawView.swift */,
+				B85A8A78296B1611007CDE0D /* medicineView.swift */,
+				B85A8A7E296B170A007CDE0D /* nursingView.swift */,
+				B85A8A7C296B1644007CDE0D /* elcView.swift */,
+			);
+			path = Majors;
+			sourceTree = "<group>";
+		};
+		E9EF2E81AE366D0278EA029B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33B9F9F838335BCB350A7567 /* Pods-KU-rala.debug.xcconfig */,
+				85F9101954CFE8334C4C5B18 /* Pods-KU-rala.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8366EB2296ADE100006E771 /* KU-rala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8366EC1296ADE120006E771 /* Build configuration list for PBXNativeTarget "KU-rala" */;
+			buildPhases = (
+				D2EE4C9427A6136B258B975D /* [CP] Check Pods Manifest.lock */,
+				B8366EAF296ADE100006E771 /* Sources */,
+				B8366EB0296ADE100006E771 /* Frameworks */,
+				B8366EB1296ADE100006E771 /* Resources */,
+				578A7E9EA7DB57503A2F7651 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KU-rala";
+			packageProductDependencies = (
+			);
+			productName = "KU-rala";
+			productReference = B8366EB3296ADE100006E771 /* KU-rala.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8366EAB296ADE100006E771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B8366EB2296ADE100006E771 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B8366EAE296ADE100006E771 /* Build configuration list for PBXProject "KU-rala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8366EAA296ADE100006E771;
+			packageReferences = (
+			);
+			productRefGroup = B8366EB4296ADE100006E771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8366EB2296ADE100006E771 /* KU-rala */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8366EB1296ADE100006E771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8366EBE296ADE120006E771 /* Preview Assets.xcassets in Resources */,
+				B8366EBB296ADE120006E771 /* Assets.xcassets in Resources */,
+				B80B530529733740000794BE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		578A7E9EA7DB57503A2F7651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KU-rala/Pods-KU-rala-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KU-rala/Pods-KU-rala-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KU-rala/Pods-KU-rala-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EE4C9427A6136B258B975D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KU-rala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8366EAF296ADE100006E771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85A8A7D296B1644007CDE0D /* elcView.swift in Sources */,
+				B85A8A71296B1174007CDE0D /* philosophyView.swift in Sources */,
+				B85A8A4D296B0178007CDE0D /* caseView.swift in Sources */,
+				B85A8A5D296B0B2F007CDE0D /* chemistryView.swift in Sources */,
+				B85A8A55296B05FE007CDE0D /* elecEngrView.swift in Sources */,
+				B85A8A6F296B1133007CDE0D /* psychologyView.swift in Sources */,
+				B85A8A6B296B10F3007CDE0D /* compLiteView.swift in Sources */,
+				B85A8A51296B05E6007CDE0D /* chemEngrView.swift in Sources */,
+				B85A8A46296AF985007CDE0D /* internationalRelationsView.swift in Sources */,
+				B85A8A65296B0BE1007CDE0D /* mbGeneticsView.swift in Sources */,
+				B85A8A57296B060E007CDE0D /* indrEngrView.swift in Sources */,
+				B85A8A61296B0B7F007CDE0D /* physicsView.swift in Sources */,
+				B85A8A67296B0DCF007CDE0D /* sosView.swift in Sources */,
+				B85A8A48296AF9C5007CDE0D /* economicsView.swift in Sources */,
+				B85A8A4F296B0414007CDE0D /* engrView.swift in Sources */,
+				B85A8A41296AEF29007CDE0D /* CategoriesView.swift in Sources */,
+				B85A8A77296B1606007CDE0D /* lawView.swift in Sources */,
+				B85A8A79296B1611007CDE0D /* medicineView.swift in Sources */,
+				B85A8A53296B05EF007CDE0D /* compEngrView.swift in Sources */,
+				B85A8A73296B1192007CDE0D /* sociologyView.swift in Sources */,
+				B85A8A75296B11B2007CDE0D /* mavaView.swift in Sources */,
+				B85A8A5B296B09BC007CDE0D /* scieView.swift in Sources */,
+				B85A8A6D296B1122007CDE0D /* historyView.swift in Sources */,
+				B85A8A3F296AEB88007CDE0D /* InfoView.swift in Sources */,
+				B8366EB7296ADE100006E771 /* KU_ralaApp.swift in Sources */,
+				B85A8A63296B0B98007CDE0D /* mathematicsView.swift in Sources */,
+				B85A8A59296B061E007CDE0D /* mechEngrView.swift in Sources */,
+				B85A8A7F296B170A007CDE0D /* nursingView.swift in Sources */,
+				B85A8A69296B10E5007CDE0D /* archArtView.swift in Sources */,
+				B80B530729733871000794BE /* LoginView.swift in Sources */,
+				B85A8A4A296AF9E9007CDE0D /* businessAdministrationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8366EBF296ADE120006E771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8366EC0296ADE120006E771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8366EC2296ADE120006E771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B9F9F838335BCB350A7567 /* Pods-KU-rala.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KU-rala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.KU-rala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8366EC3296ADE120006E771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F9101954CFE8334C4C5B18 /* Pods-KU-rala.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KU-rala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.KU-rala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8366EAE296ADE100006E771 /* Build configuration list for PBXProject "KU-rala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8366EBF296ADE120006E771 /* Debug */,
+				B8366EC0296ADE120006E771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8366EC1296ADE120006E771 /* Build configuration list for PBXNativeTarget "KU-rala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8366EC2296ADE120006E771 /* Debug */,
+				B8366EC3296ADE120006E771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8366EAB296ADE100006E771 /* Project object */;
+}
